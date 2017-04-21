@@ -10,8 +10,6 @@ Atom is a free text editor from GitHub. Much like TextPad, UltraEdit, and other 
 1. <a href="#adding-packages">Adding Packages</a>
 1. <a href="#showing-off">Showing Off</a>
 
-<a name="install-atom"/>
-
 # Install Atom
 
 If you'd like a little hand-holding, check out the Atom tuturials on YouTube from [LevelUpTuts](https://www.youtube.com/watch?v=WWwBQQOGllo&list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_).
@@ -19,8 +17,6 @@ If you'd like a little hand-holding, check out the Atom tuturials on YouTube fro
 On the other hand, you could skip the tutorials and go straight to the [download page](https://atom.io/).
 
 Once Atom has been installed, use `File > Add Project Folder` to open a folder containing a SAS program. This should add a tree on the left side of Atom. From this tree, double-click on an individual SAS program to open it in Atom.
-
-<a name="editor-settings"/>
 
 # Editor Settings
 
@@ -31,8 +27,6 @@ Most of the default editor options are what you want them to be. To change edito
 1. Set `Tab Length = 3`.
 1. Set `Tab Type = soft`.
 
-<a name="package-settings"/>
-
 # Package Settings
 
 Packages allow you to extend the base functionality of Atom. Several packages come pre-installed. Each package has its own settings. Let's practice editing package settings. Select `File > Settings > Packages`. In the search box, type the package name listed below and press Enter.
@@ -41,8 +35,6 @@ Packages allow you to extend the base functionality of Atom. Several packages co
    1. To disable autocomplete, click the `Settings` button. Disable the option `Show Suggestions on Keystroke`.
 1. `welcome`
    1. To prevent the Welcome tab from displaying every time you open Atom, click the `Settings` button. Disable the option `Show On Startup`.
-
-<a name="adding-packages"/>
 
 # Adding Packages
 
