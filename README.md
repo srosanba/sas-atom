@@ -20,7 +20,7 @@ On the other hand, you could skip the tutorials and go straight to the [download
 
 Once Atom has been installed, use `File > Add Project Folder` to open a folder containing a SAS program. This should add a tree on the left side of Atom. From this tree, double-click on an individual SAS program to open it in Atom.
 
-<a name="Editor Options"/>
+<a name="Editor Settings"/>
 
 # Editor Settings
 
