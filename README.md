@@ -4,13 +4,13 @@ Atom is a free text editor from GitHub. Much like TextPad, UltraEdit, and other 
 
 # Contents
 
-1. <a href="#Install Atom">Install Atom</a>
-1. <a href="#Editor Settings">Editor Settings</a>
-1. <a href="#Package Settings">Package Settings</a>
-1. <a href="#Adding Packages">Adding Packages</a>
-1. <a href="#Showing Off">Showing Off</a>
+1. <a href="#install-atom">Install Atom</a>
+1. <a href="#editor-settings">Editor Settings</a>
+1. <a href="#package-settings">Package Settings</a>
+1. <a href="#adding-packages">Adding Packages</a>
+1. <a href="#showing-off">Showing Off</a>
 
-<a name="Install Atom"/>
+<a name="install-atom"/>
 
 # Install Atom
 
@@ -20,7 +20,7 @@ On the other hand, you could skip the tutorials and go straight to the [download
 
 Once Atom has been installed, use `File > Add Project Folder` to open a folder containing a SAS program. This should add a tree on the left side of Atom. From this tree, double-click on an individual SAS program to open it in Atom.
 
-<a name="Editor Settings"/>
+<a name="editor-settings"/>
 
 # Editor Settings
 
@@ -31,7 +31,7 @@ Most of the default editor options are what you want them to be. To change edito
 1. Set `Tab Length = 3`.
 1. Set `Tab Type = soft`.
 
-<a name="Package Settings"/>
+<a name="package-settings"/>
 
 # Package Settings
 
@@ -42,7 +42,7 @@ Packages allow you to extend the base functionality of Atom. Several packages co
 1. `welcome`
    1. To prevent the Welcome tab from displaying every time you open Atom, click the `Settings` button. Disable the option `Show On Startup`.
 
-<a name="Adding Packages"/>
+<a name="adding-packages"/>
 
 # Adding Packages
 
@@ -72,7 +72,7 @@ To get the most out of Atom for SAS, you will want to install the following pack
    1. Once the package has been installed, select `Settings`. I would recommend you enable `Prompt on Change`.
    1. Test this update by opening your SAS, LOG, and LST files. Then run the SAS program. You should get some pop-ups.
 
-<a name="Showing Off"/a>
+<a name="showing-off"/a>
 
 # Showing Off
 
