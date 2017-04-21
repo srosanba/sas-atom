@@ -1,0 +1,86 @@
+  "atom-shell-commands":
+    commands: [
+      {
+        name: "SAS Grid 9.3"
+        command: "I:/RHO_APPS/SAS grid/QuickBatch/PROD/SASBatch93.bat"
+        arguments: [
+          "{FileName}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-shift-3"
+      }
+      {
+        name: "SAS Grid 9.4"
+        command: "I:/RHO_APPS/SAS grid/GridBatch/PROD/GridBatch94.bat"
+        arguments: [
+          "{FilePath}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-shift-4"
+      }
+      {
+        name: "SAS Grid 9.4 - Wait"
+        command: "I:/RHO_APPS/SAS grid/GridBatch/PROD/GridBatch94.bat"
+        arguments: [
+          "{FilePath}"
+          "wait"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-shift-5"
+      },
+      {
+        name: "SAS Cluster 9.1",
+        command: "C:/windows/system32/cscript.exe"
+        arguments: [
+          "/nologo",
+          "C:\\Program\ Files\ (x86)\\RhoClusterShell\\SubmitJob.vbs",
+          "sas91",
+          "{FilePath}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-shift-c 1"
+      },
+      {
+        name: "SAS Cluster 9.2",
+        command: "C:/windows/system32/cscript.exe"
+        arguments: [
+          "/nologo",
+          "C:\\Program\ Files\ (x86)\\RhoClusterShell\\SubmitJob.vbs",
+          "sas92",
+          "{FilePath}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-shift-c 2"
+      }
+      {
+        name: "SAS Cluster 9.3",
+        command: "C:/windows/system32/cscript.exe"
+        arguments: [
+          "/nologo",
+          "C:\\Program\ Files\ (x86)\\RhoClusterShell\\SubmitJob.vbs",
+          "sas93",
+          "{FilePath}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-shift-c 3"
+      },
+      {
+        name: "SAS Cluster 8.2",
+        command: "C:/windows/system32/cscript.exe"
+        arguments: [
+          "/nologo",
+          "C:\\Program\ Files\ (x86)\\RhoClusterShell\\SubmitJob.vbs",
+          "sas8",
+          "{FilePath}"
+        ]
+        options:
+          cwd: "{FileDir}"
+          keymap: "ctrl-shift-c 8"
+      }
+    ]

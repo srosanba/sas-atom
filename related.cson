@@ -1,0 +1,13 @@
+# SAS log and listing roundabout
+'^(.+)\\.sas$': [
+  '$1.lst',
+  '$1.log'
+]
+'^(.+)\\.lst$': [
+  '$1.sas',
+  '$1.log'
+]
+'^(.+)\\.log$': [
+  '$1.sas',
+  '$1.lst'
+]
