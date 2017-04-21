@@ -72,7 +72,7 @@ To get the most out of Atom for SAS, you will want to install the following pack
    1. Once the package has been installed, select `Settings`. I would recommend you enable `Prompt on Change`.
    1. Test this update by opening your SAS, LOG, and LST files. Then run the SAS program. You should get some pop-ups.
 
-<a name="showing-off"/a>
+<a name="showing-off"/>
 
 # Showing Off
 
