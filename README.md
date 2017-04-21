@@ -49,13 +49,13 @@ To get the most out of Atom for SAS, you will want to install the following pack
 1. `atom-shell-commands`
    1. This package allows you to submit SAS jobs from within Atom.
    1. Once the package has been installed, open your config file by selecting `File > Config`. This file is named `config.cson`. Move your cursor to the very bottom of this file.
-   1. Next, open the `atom-shell-commands.cson` file included in this repository. Do so by right-clicking on [this link](https://github.com/srosanba/sas-atom/blob/master/atom-shell-commands.cson) and opening in a new tab. Select the pencil icon at right. Use ctrl-a to select all.
+   1. Next, open the `atom-shell-commands.cson` file included in this repository. Do so by right-clicking on [this link](https://github.com/srosanba/sas-atom/blob/master/atom-shell-commands.cson) and opening in a new tab. Select the pencil icon at right. Use `ctrl-a` to select all.
    1. Copy/paste the commands from `atom-shell-commands.cson` into the end/bottom of the Atom `config.cson` file. Save and close `config.cson`.
    1. Test these updates by navigating to your SAS program and pressing `ctrl-shift-5`. This should result in some command-prompt-like lines being generated near the bottom of your Atom editor (e.g., Connecting to the SAS Grid server...). After 15-20 seconds you should see a message indicating `[Finished in xx.xx seconds]`.
 1. `related`
    1. This package allows you to open your LOG and LST files without touching your mouse.
    1. Once the package has been installed, from the top menu select `Packages > Related > Edit related patterns`. This file is named `related-patterns.cson`.
-   1. Next, open the `related.cson` file included in this repository. Do so by right right-clicking on [this link](https://github.com/srosanba/sas-atom/blob/master/related.cson) and opening in a new tab. Select the pencil icon at right. Use ctrl-a to select all.
+   1. Next, open the `related.cson` file included in this repository. Do so by right-clicking on [this link](https://github.com/srosanba/sas-atom/blob/master/related.cson) and opening in a new tab. Select the pencil icon at right. Use `ctrl-a` to select all.
    1. Copy/paste the commands at the end/bottom of the Atom `related-patterns.cson` file. Save and close `related-patterns.cson`.
    1. Test these updates by navigating to your SAS program and pressing `ctrl-shift-r`. This should result in a list including your LOG and LST file. Use the up/down arrows to select the file of interest and press Enter.
       1. Note: this feature only works if the SAS program has been opened as part of a project folder (i.e., if you can see the SAS/LOG/LST files in the tree at left). If you attempt the `ctrl-shift-r` command on a program which is not visible in the tree you will lock up Atom. You have been warned!
