@@ -38,7 +38,7 @@ Packages allow you to extend the base functionality of Atom. Several packages co
 
 # Adding Packages
 
-To get the most out of Atom for SAS, you will want to install the following packages. The more of these packages you install, the nicer Atom will work for you in SAS.
+To get the most out of Atom for SAS, you will want to install the following packages. The more of these packages you install, the nicer Atom will work for you in SAS. Select `File > Settings > Install`. In the search box, type the package name listed below and press Enter.
 
 1. `language-sas`
    1. This package adds SAS syntax highlighting. Once you've installed it the SAS file that you have open should look a little different.
