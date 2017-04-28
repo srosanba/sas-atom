@@ -2,6 +2,8 @@
 
 Atom is a free text editor from GitHub. Much like TextPad, UltraEdit, and other text editors, there are many ways to customize Atom to play nicely with SAS. Continue reading if you're interested in learning more.
 
+![atom screen shot](img/atom.png)
+
 # Contents
 
 1. <a href="#install-atom">Install Atom</a>
@@ -16,11 +18,21 @@ If you'd like a little hand-holding, check out the Atom tuturials on YouTube fro
 
 On the other hand, you could skip the tutorials and go straight to the [download page](https://atom.io/).
 
-Once Atom has been installed, use `File > Add Project Folder` to open a folder containing a SAS program. This should add a tree on the left side of Atom. From this tree, double-click on an individual SAS program to open it in Atom.
+Once Atom has been installed, use `File > Add Project Folder` to open a folder containing a SAS program.
+
+![add project folder](img/addprojectfolder.png)
+
+This action should add a directory tree on the left side of Atom. From this tree, double-click on an individual SAS program to open it.
+
+![atom screen shot](img/atom.png)
 
 # Editor Settings
 
-Most of the default editor options are what you want them to be. To change editor settings, select `File > Settings > Editor`. Options are sorted alphabetically. Here are a few options that I would recommend changing from the default.
+Most of the default editor options are what you want them to be. To change editor settings, select `File > Settings > Editor`.
+
+![editor settings](img/editorsettings.png)
+
+Options are sorted alphabetically. Here are a few options that I would recommend changing from the default.
 
 1. Enable `Scroll Past End`.
 1. Enable `Show Indent Guide`.
@@ -29,12 +41,22 @@ Most of the default editor options are what you want them to be. To change edito
 
 # Package Settings
 
-Packages allow you to extend the base functionality of Atom. Several packages come pre-installed. Each package has its own settings. Let's practice editing package settings. Select `File > Settings > Packages`. In the search box, type the package name listed below and press Enter.
+Packages allow you to extend the base functionality of Atom. Several packages come pre-installed. Each package has its own settings. Let's practice editing package settings. Select `File > Settings > Packages`.
+
+![packages](img/packages.png)
+
+In the search box, type the package name listed below and press Enter.
 
 1. `autocomplete-plus`
-   1. To disable autocomplete, click the `Settings` button. Disable the option `Show Suggestions on Keystroke`.
+   1. To disable autocomplete, click the `Settings` button.   
+   ![autocomplete-plus](img/autocomplete-plus.png)   
+   Disable the option `Show Suggestions on Keystroke`.   
+   ![show suggestions](img/showsuggestions.png)
 1. `welcome`
-   1. To prevent the Welcome tab from displaying every time you open Atom, click the `Settings` button. Disable the option `Show On Startup`.
+   1. To prevent the Welcome tab from displaying every time you open Atom, click the `Settings` button.   
+   ![welcom](img/welcome.png)   
+   Disable the option `Show On Startup`.   
+   ![show on startup](img/showonstartup.png)   
 
 # Adding Packages
 
